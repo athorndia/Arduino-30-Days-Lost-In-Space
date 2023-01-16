@@ -4,7 +4,8 @@ The 7 segment display prints the values of the rotary encoder (positive or negat
 where the first digit (most left) is used for the minus sign (-).
 Buzzer on breadboard. 2 wires connect buzzer(-)end to digital GND and buzzer(s) to pin 10 on HERO. 
 
-Had to switch from pc to mac and installed the following libraries: TM1637, Keypad,... */
+Had to switch from pc to mac and installed the following libraries: TM1637, Keypad, Encoder by Paul Stoffregen...etc.
+*/
 
 #include <TM1637Display.h>
 #include <Encoder.h>
