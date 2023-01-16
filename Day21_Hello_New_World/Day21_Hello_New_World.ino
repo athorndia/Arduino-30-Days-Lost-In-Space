@@ -24,7 +24,7 @@ Pins A4 and A5 should be used for components requiring I2C communication such as
 
 // ********************************************************* //
 
-// #include <U8glib.h> causes Compilation error: U8glib.h: No such file or directory
+// #include <U8glib.h> causes Compilation error: U8glib.h: No such file or directory (on macbook only...PC does not error)
 #include <U8glib-HAL.h>
 #include <PololuOLED.h>
  
